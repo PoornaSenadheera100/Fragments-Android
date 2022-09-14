@@ -20,4 +20,10 @@
         android:layout_height="wrap_content"
         android:onClick="changeFragment"
         android:text="@string/fragment2" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fgmntDefault"
+        android:name="com.dreamsoft.fragments.Fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
